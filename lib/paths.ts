@@ -1,6 +1,8 @@
-const basePath = process.env.NEXT_PUBLIC_BASE_PATH?.replace(/\/$/, "") || "";
+export const BASE_PATH = "/Traditional-Kashi-Heritage";
 
-export function assetUrl(path: string) {
-  if (!path.startsWith("/") || path.startsWith("/manus-storage/")) return path;
-  return `${basePath}${path}`;
+export function getImagePath(path: string): string {
+  if (!path) return "";
+  if (path.startsWith("http://") || path.startsWith("https://")) return path;
+  const cleanPath = path.startsWith("/") ? path : `/${path}`;
+  return `${BASE_PATH}${cleanPath}`;
 }

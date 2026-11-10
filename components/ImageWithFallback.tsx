@@ -18,11 +18,9 @@ export function ImageWithFallback({ src, fallback, alt, className, loading = "la
   );
 
   return (
-    // The project mixes local assignment photography with managed image assets.
-    // A local fallback keeps the export usable on hosts without Manus Storage.
     // eslint-disable-next-line @next/next/no-img-element
     <img
-      src={currentSrc.startsWith("/manus-storage/") ? currentSrc : assetUrl(currentSrc)}
+      src={assetUrl(currentSrc)}
       alt={alt}
       className={className}
       loading={loading}
