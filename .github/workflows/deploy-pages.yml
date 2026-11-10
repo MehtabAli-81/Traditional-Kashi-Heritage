@@ -1,24 +1,14 @@
-name: Deploy Next.js static site to GitHub Pages
-
+name: Verify GitHub Pages root export
 on:
   push:
     branches: [main]
+  pull_request:
+    branches: [main]
   workflow_dispatch:
-
 permissions:
   contents: read
-  pages: write
-  id-token: write
-
-concurrency:
-  group: pages
-  cancel-in-progress: true
-
 jobs:
-  build-and-deploy:
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
+  verify-static-root:
     runs-on: ubuntu-latest
     steps:
       - name: Check out repository
@@ -28,7 +18,7 @@ jobs:
         with:
           node-version: 22
           cache: npm
-      - name: Configure the GitHub Pages base path
+      - name: Configure repository base path
         shell: bash
         run: |
           REPOSITORY_NAME="${GITHUB_REPOSITORY#*/}"
@@ -40,12 +30,13 @@ jobs:
           echo "NEXT_PUBLIC_BASE_PATH=$BASE_PATH" >> "$GITHUB_ENV"
       - name: Install dependencies
         run: npm ci
-      - name: Build static site
-        run: npm run build
-      - name: Upload Pages artifact
-        uses: actions/upload-pages-artifact@v3
-        with:
-          path: out
-      - name: Deploy to GitHub Pages
-        id: deployment
-        uses: actions/deploy-pages@v4
+      - name: Build root-level static site
+        run: npm run build:pages
+      - name: Confirm generated site is committed
+        shell: bash
+        run: |
+          if [[ -n "$(git status --porcelain --untracked-files=all)" ]]; then
+            echo "Generated Pages output differs from the committed repository. Run the documented build:pages command and commit the resulting static files."
+            git status --short
+            exit 1
+          fi

@@ -12,7 +12,10 @@ type Props = {
 };
 
 export function ImageWithFallback({ src, fallback, alt, className, loading = "lazy" }: Props) {
-  const [currentSrc, setCurrentSrc] = useState(src);
+  const isStaticPagesBuild = Boolean(process.env.NEXT_PUBLIC_BASE_PATH);
+  const [currentSrc, setCurrentSrc] = useState(
+    isStaticPagesBuild && src.startsWith("/manus-storage/") ? fallback : src,
+  );
 
   return (
     // The project mixes local assignment photography with managed image assets.
