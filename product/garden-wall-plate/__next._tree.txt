@@ -1,5 +1,5 @@
-:HL["/E-Commerce-Assignment/_next/static/chunks/05h8blhfl2p_y.css","style"]
+:HL["/Traditional-Kashi-Heritage/_next/static/chunks/05h8blhfl2p_y.css","style"]
 3:[["children",{"s":"__PAGE__","h":160}]]
 2:[["children",{"s":{"n":"slug","t":"d","k":"garden-wall-plate","s":[]},"h":65632,"c":"$Q3"}]]
 1:[["children",{"s":"product","h":131168,"c":"$Q2"}]]
-0:{"b":"A-MaWJndm4vPHtxphlvNT","t":{"t":{"s":"","h":131152,"c":"$Q1"}}}
+0:{"b":"AZcZQTvCDmWVuIEyqx4Sb","t":{"t":{"s":"","h":131152,"c":"$Q1"}}}

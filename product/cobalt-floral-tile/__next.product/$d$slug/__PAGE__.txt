@@ -1,0 +1,37 @@
+1:"$Sreact.fragment"
+2:"/Traditional-Kashi-Heritage/_next/static/chunks/3zenl3ebo6v6u.js"
+3:I[77142,["$2"],"CartProvider"]
+4:I[70119,["$2"],"Header"]
+5:I[39756,["$2"],"default"]
+6:"/Traditional-Kashi-Heritage/_next/static/chunks/3_zkccy5g2f5z.js"
+7:I[8821,["$2","$6"],"default"]
+8:I[37457,["$2"],"default"]
+9:"/Traditional-Kashi-Heritage/_next/static/chunks/40zlel4tfs3nk.js"
+a:I[22016,["$2","$9"],""]
+13:I[23036,["$2","$9"],"ProductDetail"]
+17:"ViewportBoundary"
+18:I[97367,["$2"],"$17"]
+19:"MetadataBoundary"
+1a:I[97367,["$2"],"$19"]
+1b:"$Sreact.suspense"
+:HL["/Traditional-Kashi-Heritage/_next/static/chunks/05h8blhfl2p_y.css","style"]
+c:X
+f:X
+f:C
+12:[["children",{"s":"__PAGE__","h":160,"d":{"r":["$","$1","c",{"children":[["$","div",null,{"className":"wrap product-detail-page","children":[["$","nav",null,{"className":"breadcrumbs","aria-label":"Breadcrumb","children":[["$","span","Shop-0",{"children":[false,["$","$La",null,{"href":"/shop","children":"Shop"}]]}],["$","span","Tiles-1",{"children":[["$","span",null,{"className":"breadcrumb-separator","children":"/"}],["$","$La",null,{"href":"/shop?category=Tiles","children":"Tiles"}]]}],["$","span","Cobalt Floral Tile-2",{"children":[["$","span",null,{"className":"breadcrumb-separator","children":"/"}],["$","span",null,{"aria-current":"page","children":"Cobalt Floral Tile"}]]}]]}],["$","$L13",null,{"product":{"id":"cobalt-floral-tile","slug":"cobalt-floral-tile","name":"Cobalt Floral Tile","category":"Tiles","price":1800,"priceNote":"example price per tile","image":"/manus-storage/async-images/X6ZwvZkCEsEZ6UDpQzQLz5/image-4.webp","fallbackImage":"/images/assignment-serving-bowls.jpeg","shortDescription":"A decorative accent for a considered surface or a small collection.","description":"A representative Kashi tile concept for accent surfaces in homes and mosques, one of the assignment's planned expansion categories. The sold-out label is a demonstration state only; there is no live inventory connection.","story":"Tiles are listed as an expansion category in the assignment. Pattern, dimensions, order quantity, and availability are not specified there and must be agreed with the artisan before a real purchase.","tags":["Expansion collection","Demo out-of-stock state"],"availability":"sample-out-of-stock","featured":false}}]]}],["$L14"],"$L15"]}],"p":"$@16","v":null,"s":"$c"}}]]
+10:[["children",{"s":{"n":"slug","t":"d","k":"cobalt-floral-tile","s":[]},"h":65632,"d":{"r":["$","$1","c",{"children":[null,["$","$L5",null,{"parallelRouterKey":"children","template":["$","$L8",null,{}]}]]}],"p":"$@11","v":"$f","s":"$c"},"c":"$Q12"}]]
+d:[["children",{"s":"product","h":131168,"d":{"r":["$","$1","c",{"children":[null,["$","$L5",null,{"parallelRouterKey":"children","template":["$","$L8",null,{}]}]]}],"p":"$@e","v":"$f","s":"$c"},"c":"$Q10"}]]
+0:{"t":{"t":{"s":"","h":131152,"d":{"r":["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/Traditional-Kashi-Heritage/_next/static/chunks/05h8blhfl2p_y.css","precedence":"next"}],["$","script","script-0",{"src":"/Traditional-Kashi-Heritage/_next/static/chunks/3zenl3ebo6v6u.js","async":true}]],["$","html",null,{"lang":"en","children":["$","body",null,{"children":["$","$L3",null,{"children":[["$","$L4",null,{}],["$","main",null,{"id":"main-content","children":["$","$L5",null,{"parallelRouterKey":"children","error":"$7","errorStyles":[],"errorScripts":[["$","script","script-0",{"src":"/Traditional-Kashi-Heritage/_next/static/chunks/3_zkccy5g2f5z.js","async":true}]],"template":["$","$L8",null,{}],"notFound":[["$","section",null,{"className":"state-page wrap","children":[["$","span",null,{"className":"eyebrow","children":"THIS PIECE ISN’T HERE"}],["$","h1",null,{"children":"We couldn’t find that page."}],["$","p",null,{"children":"The address may have changed, or this sample listing is no longer part of the collection."}],["$","div",null,{"className":"state-actions","children":[["$","$La",null,{"className":"button button-primary","href":"/shop","children":"Explore the collection"}],["$","$La",null,{"className":"text-link","href":"/","children":"Back to the beginning"}]]}]]}],[]]}]}],["$","footer",null,{"className":"site-footer","children":[["$","div",null,{"className":"footer-main wrap","children":[["$","div",null,{"className":"footer-brand-column","children":[["$","$La",null,{"href":"/","className":"footer-brand","children":["Nasarpor Kashi ",["$","span",null,{"children":"Heritage"}]]}],["$","p",null,{"children":"From clay to art. A digital home for the hand-painted Kashi craft of Nasarpur, Sindh."}],["$","span",null,{"className":"footer-location","children":"NASARPUR · SINDH · PAKISTAN"}]]}],["$","div",null,{"className":"footer-link-column","children":[["$","h2",null,{"children":"Explore"}],["$","$La",null,{"href":"/shop","children":"Shop the collection"}],["$","$La",null,{"href":"/about","children":"Our craft & purpose"}],["$","$La",null,{"href":"/contact","children":"Contact"}]]}],["$","div",null,{"className":"footer-link-column","children":[["$","h2",null,{"children":"Helpful notes"}],[["$","$La","/shipping",{"href":"/shipping","children":"Shipping"}],["$","$La","/returns",{"href":"/returns","children":"Returns & breakage"}],["$","$La","/privacy",{"href":"/privacy","children":"Privacy"}],["$","$La","/terms",{"href":"/terms","children":"Terms"}]]]}]]}],["$","div",null,{"className":"footer-bottom wrap","children":[["$","span",null,{"children":["© ",2026," Nasarpor Kashi Heritage · Demo storefront"]}],["$","span",null,{"children":"Photos and sample prices shown for the assignment; verify stock and terms with artisans."}]]}]]}]]}]}]}]]}],"p":"$@b","v":null,"s":"$c"},"c":"$Qd"},"h":{"r":["$","$1","h",{"children":[null,["$","$L18",null,{"children":[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]}],["$","$L1a",null,{"children":[["$","div",null,{"hidden":true,"children":["$","$1b",null,{"name":"Next.Metadata","children":[["$","title","0",{"children":"Cobalt Floral Tile — Tiles | Nasarpor Kashi Heritage"}],["$","meta","1",{"name":"description","content":"A decorative accent for a considered surface or a small collection."}],["$","meta","2",{"name":"keywords","content":"Kashi pottery,Nasarpur,Sindh craft,hand-painted pottery,artisan-made decor"}],["$","meta","3",{"property":"og:title","content":"Cobalt Floral Tile"}],["$","meta","4",{"property":"og:description","content":"A decorative accent for a considered surface or a small collection."}],["$","meta","5",{"property":"og:type","content":"website"}],["$","meta","6",{"name":"twitter:card","content":"summary_large_image"}],["$","meta","7",{"name":"twitter:title","content":"Cobalt Floral Tile"}],["$","meta","8",{"name":"twitter:description","content":"A decorative accent for a considered surface or a small collection."}]]}]}],null]}],null]}],"p":"$@1c","v":null,"s":"$c"}},"a":"$@1d","u":"$@1e","b":"AZcZQTvCDmWVuIEyqx4Sb"}
+1f:I[97367,["$2"],"OutletBoundary"]
+14:["$","script","script-0",{"src":"/Traditional-Kashi-Heritage/_next/static/chunks/40zlel4tfs3nk.js","async":true}]
+15:["$","$L1f",null,{"children":["$","$1b",null,{"name":"Next.MetadataOutlet","children":"$@20"}]}]
+c:300
+20:null
+1e:true
+c:C
+1d:0
+11:"$undefined"
+e:"$undefined"
+b:"$undefined"
+1c:"$undefined"
+16:"$undefined"
