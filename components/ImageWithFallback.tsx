@@ -1,6 +1,6 @@
 "use client";
 
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { assetUrl } from "@/lib/paths";
 
 type Props = {
@@ -12,20 +12,25 @@ type Props = {
 };
 
 export function ImageWithFallback({ src, fallback, alt, className, loading = "lazy" }: Props) {
-  const isStaticPagesBuild = Boolean(process.env.NEXT_PUBLIC_BASE_PATH);
-  const [currentSrc, setCurrentSrc] = useState(
-    isStaticPagesBuild && src.startsWith("/manus-storage/") ? fallback : src,
-  );
+  const [currentSrc, setCurrentSrc] = useState<string>(src);
+
+  useEffect(() => {
+    setCurrentSrc(src);
+  }, [src]);
+
+  const displayUrl = assetUrl(currentSrc);
 
   return (
     // eslint-disable-next-line @next/next/no-img-element
     <img
-      src={assetUrl(currentSrc)}
+      src={displayUrl}
       alt={alt}
       className={className}
       loading={loading}
       onError={() => {
-        if (currentSrc !== fallback) setCurrentSrc(fallback);
+        if (currentSrc !== fallback) {
+          setCurrentSrc(fallback);
+        }
       }}
     />
   );
