@@ -64,11 +64,7 @@ export default function HomePage() {
         ))}</div>
       </section>
 
-      <section className="section featured-section"><div className="wrap">
-        <div className="section-heading-row featured-heading"><div><span className="eyebrow">SELECTED PIECES · A SAMPLE CATALOG</span><h2>Small-batch <em>finds.</em></h2></div><Link href="/shop" className="text-link">View all pieces <ArrowRight size={16} /></Link></div>
-        <div className="product-grid product-grid-home">{homeProducts.map((product, index) => <ProductCard key={product.id} product={product} index={index} />)}</div>
-        <p className="catalog-caption">Representative listings · Sample prices and availability are not live. Confirm with an artisan before ordering.</p>
-      </div></section>
+     
 
       <section className="story-band">
         <div className="story-band-art"><ImageWithFallback src="/images/assignment-cups-and-jug.jpeg" fallback="/images/assignment-cups-and-jug.jpeg" alt="Kashi cups and a pitcher pictured in the assignment" className="story-band-image" /><span className="story-image-label">FIG. 01 · FROM THE ASSIGNMENT</span></div>
