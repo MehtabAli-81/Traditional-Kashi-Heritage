@@ -28,8 +28,7 @@ export function Footer() {
         </div>
       </div>
       <div className="footer-bottom wrap">
-        <span>© {new Date().getFullYear()} Nasarpor Kashi Heritage · Demo storefront</span>
-        <span>Photos and sample prices shown for the assignment; verify stock and terms with artisans.</span>
+        <span>© {new Date().getFullYear()} Nasarpor Kashi Heritage</span>
       </div>
     </footer>
   );
